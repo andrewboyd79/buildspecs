@@ -3,9 +3,9 @@ phases:
   install:
     runtime-versions:
       ruby: 2.6
-     commands:
-       - apt-get -qq update
-       - apt-get -qq install -y jq
+    commands:
+      - apt-get -qq update
+      - apt-get -qq install -y jq
   pre_build:
     commands:
       - echo "Pre-build phase started.."
